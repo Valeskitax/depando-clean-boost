@@ -25,11 +25,11 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				depando: {
-					primary: '#0F52BA',    // Strong blue
-					secondary: '#64A6BD',  // Lighter blue
-					accent: '#36B5B0',     // Teal accent
-					light: '#E5F4F3',      // Very light teal/blue
-					dark: '#0A2342',       // Dark blue
+					primary: '#000000',    // Black
+					secondary: '#FEF7CD',  // Light Yellow
+					accent: '#FFFFFF',     // White
+					background: '#FEF7CD', // Light Yellow background
+					text: '#000000',       // Black text
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
