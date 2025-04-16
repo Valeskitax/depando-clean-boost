@@ -26,9 +26,9 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				depando: {
 					primary: '#000000',    // Black
-					secondary: '#FEF7CD',  // Light Yellow
+					secondary: '#f2fcad',  // Updated light yellow
 					accent: '#FFFFFF',     // White
-					background: '#FEF7CD', // Light Yellow background
+					background: '#f2fcad', // Updated light yellow background
 					text: '#000000',       // Black text
 				},
 				primary: {
