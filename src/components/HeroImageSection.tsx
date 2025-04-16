@@ -14,10 +14,10 @@ const HeroImageSection = () => {
   return <div className="relative min-h-screen flex items-center bg-zinc-50">
       <div className="container mx-auto px-4 grid md:grid-cols-2 items-center gap-12 bg-[t#dcc8fe] bg-zinc-50">
         <div className="space-y-6 text-depando-text">
-          <h1 className="text-4xl md:text-5xl font-bold">Sé parte del equipo de aseo de excelencia</h1>
-          <p className="text-xl md:text-2xl">
-            Únete a Depando y trabaja limpiando propiedades de arriendo turístico con horarios flexibles y remuneración competitiva.
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold">Profesionales del aseo que marcan la diferencia</h1>
+          <p className="text-xl md:text-2xl">Conecta con administradores que valoran tu experiencia y compromiso.
+
+        </p>
           <div className="flex space-x-4">
             <Button className="bg-depando-primary text-depando-accent hover:bg-depando-primary/90" onClick={scrollToForm}>
               Postula ahora <ArrowDownCircle className="ml-2 h-4 w-4" />
