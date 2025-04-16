@@ -1,7 +1,9 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import LandingIcon from "./LandingIcon";
 import { ArrowDownCircle } from "lucide-react";
+
 const HeroImageSection = () => {
   const scrollToForm = () => {
     const formElement = document.getElementById("application-form");
@@ -11,8 +13,10 @@ const HeroImageSection = () => {
       });
     }
   };
-  return <div className="relative min-h-screen flex items-center bg-zinc-50">
-      <div className="container mx-auto px-4 grid md:grid-cols-2 items-center gap-12 bg-[t#dcc8fe] bg-zinc-50">
+  
+  return (
+    <div className="relative min-h-screen flex items-center bg-zinc-50">
+      <div className="container mx-auto px-4 grid md:grid-cols-2 items-center gap-12 bg-zinc-50">
         <div className="space-y-6 text-depando-text">
           <h1 className="text-4xl md:text-5xl font-bold">Profesionales del aseo que marcan la diferencia</h1>
           <p className="text-xl md:text-2xl">Accede a oportunidades con anfitriones que valoran tu experiencia y compromiso</p>
@@ -23,9 +27,11 @@ const HeroImageSection = () => {
           </div>
         </div>
         <div className="flex justify-center bg-zinc-50">
-          <LandingIcon className="max-w-full h-auto" />
+          <LandingIcon className="max-w-full h-auto rounded-full" />
         </div>
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default HeroImageSection;
