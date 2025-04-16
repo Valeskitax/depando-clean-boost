@@ -24,6 +24,13 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				depando: {
+					primary: '#0F52BA',    // Strong blue
+					secondary: '#64A6BD',  // Lighter blue
+					accent: '#36B5B0',     // Teal accent
+					light: '#E5F4F3',      // Very light teal/blue
+					dark: '#0A2342',       // Dark blue
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
