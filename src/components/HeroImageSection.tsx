@@ -20,7 +20,7 @@ const HeroImageSection = () => {
         <img 
           src="/lovable-uploads/0dced369-5dda-48ac-85f4-e6ebdb15e770.png" 
           alt="Depando Logo" 
-          className="h-[1000px] w-auto" 
+          className="h-[20px] w-auto" 
         />
       </div>
       <div className="container mx-auto px-4 grid md:grid-cols-2 items-center gap-12 bg-zinc-50">
